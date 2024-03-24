@@ -12,6 +12,9 @@ body {
 .text-center {
   text-align: center;
 }
+.p-b-26 {
+  padding-bottom: 26px;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
