@@ -5,8 +5,12 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .img-responsiv {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .text-center {
@@ -22,6 +26,9 @@ body {
 .card-grid {
   display: grid;
   grid-gap: 32px;
+}
+.card-header.card-grid {
+  grid-gap: 0;
 }
 .grid-1-1-col {
   grid-template-columns: 1fr 1fr;
