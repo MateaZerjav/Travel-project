@@ -7,13 +7,24 @@ body {
 }
 .img-responsiv {
   max-width: 100%;
+  display: block;
+}
+.text-center {
+  text-align: center;
 }
 .grid {
   display: grid;
   grid-gap: 64px;
 }
+.card-grid {
+  display: grid;
+  grid-gap: 32px;
+}
 .grid-1-1-col {
   grid-template-columns: 1fr 1fr;
+}
+.grid-1-1-1-col {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-1-2-2-col {
   grid-template-columns: 1fr 2fr 2fr;
@@ -41,11 +52,23 @@ main h3 {
   margin: 0;
   padding: 0;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: rgba(39, 32, 68, 1);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 main p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: rgba(39, 32, 68, 0.7);
+}
+.middle {
+  background-color: rgba(248, 248, 248, 1);
 }
 
 header {
@@ -93,6 +116,43 @@ header a {
   background-color: white;
   padding: 16px 32px;
   letter-spacing: 3px;
+}
+h5 {
+  color: rgba(39, 32, 68, 1);
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+h6 {
+  color: rgba(39, 32, 68, 1);
+  font-size: 13px;
+  line-height: 19.5px;
+  font-weight: 700;
+}
+.btn {
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgba(70, 44, 178, 1);
+  padding: 16px;
+}
+.card {
+  margin: 30px 0;
+  max-width: 370px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 20px 20px 40px 0px rgba(198, 198, 198, 0.2);
+}
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px;
 }
 
 footer {
@@ -146,7 +206,8 @@ footer a {
     line-height: 1;
   }
   .grid-1-1-col,
-  .grid-1-2-2-col {
+  .grid-1-2-2-col,
+  .grid-1-1-1-col {
     grid-template-columns: 1fr;
   }
   main h2 {
