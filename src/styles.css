@@ -229,4 +229,7 @@ footer a {
   main p {
     font-size: 8px;
   }
+  .card-header img {
+    display: none;
+  }
 }
