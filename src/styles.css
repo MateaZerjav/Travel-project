@@ -19,6 +19,12 @@ body {
 .p-b-26 {
   padding-bottom: 26px;
 }
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
